@@ -1,0 +1,36 @@
+<service name="meteofct" url="http://localhost:3004">
+    <provider>G6</provider>
+    <serviceID>mf</serviceID>
+    <type>metereology</type>
+    <tags>
+      <tag>meteo</tag>
+      <tag>metereologia</tag>
+      <tag>tempo</tag>
+    </tags>
+    <search>no</search>
+    <referedEntities/>
+    <informedEntities/>
+    <competences>
+    <competence path="/index" httpOp="">
+            <ctype>Home</ctype>
+            <description>Devolve a descrição do serviço</description>
+            <arglist/>
+            <interactionType>Indirect</interactionType>
+            <tags/>
+    </competence>
+	<competence path="/status" httpOp="">
+            <ctype>Status</ctype>
+            <description>Devolve o estado o serviço</description>
+            <arglist/>
+            <interactionType>Indirect</interactionType>
+            <tags/>
+    </competence>
+	<competence path="/metainfo" httpOp="">
+            <ctype>Metainfo</ctype>
+            <description>Devolve a meta info do serviço</description>
+            <arglist/>
+            <interactionType>Indirect</interactionType>
+            <tags/>
+    </competence>
+  </competences>
+</service>
