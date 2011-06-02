@@ -11,21 +11,21 @@
     <referedEntities/>
     <informedEntities/>
     <competences>
-    <competence path="index" httpOp="">
+    <competence path="/index" httpOp="">
             <ctype>Home</ctype>
             <description>Devolve a descrição do serviço</description>
             <arglist/>
             <interactionType>Indirect</interactionType>
             <tags/>
     </competence>
-	<competence path="status" httpOp="">
+	<competence path="/status" httpOp="">
             <ctype>Status</ctype>
             <description>Devolve o estado o serviço</description>
             <arglist/>
             <interactionType>Indirect</interactionType>
             <tags/>
     </competence>
-	<competence path="metainfo" httpOp="">
+	<competence path="/metainfo" httpOp="">
             <ctype>Metainfo</ctype>
             <description>Devolve a meta info do serviço</description>
             <arglist/>
