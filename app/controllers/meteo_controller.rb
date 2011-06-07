@@ -3,7 +3,7 @@
 class MeteoController < ApplicationController
 
   def metainfo
-
+    @address = get_address
     respond_to :xml
 
   end

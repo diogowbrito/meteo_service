@@ -1,4 +1,4 @@
-<service name="meteofct" url="http://localhost:3004">
+<service name="meteofct" url="<%=@address%>">
     <provider>G6</provider>
     <serviceID>mf</serviceID>
     <type>metereology</type>
