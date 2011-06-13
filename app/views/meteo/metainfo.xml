@@ -1,4 +1,4 @@
-<service name="meteofct" url="<%=@address%>">
+<service name="MeteoFCT" url="<%=@address%>">
     <provider>G6</provider>
     <serviceID>mf</serviceID>
     <type>metereology</type>
