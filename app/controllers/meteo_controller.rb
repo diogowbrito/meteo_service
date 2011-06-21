@@ -39,7 +39,7 @@ class MeteoController < ApplicationController
   @ocup = ocuptemp.gsub('Ocupação: ', '').strip
   temp1 = dataarray[5]
   temparray = temp1.split(' ')
-  @temp = temparray[1].strip
+  @temp2 = temparray[1].strip
   @ond = temparray[4].strip
   @windsb = windstemp.gsub('Vento: ', '').strip
 
